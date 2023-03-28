@@ -1,0 +1,42 @@
+.container {
+    background-image: url('sakura.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+  }
+  
+  header {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  h1 {
+    font-family: "Noto Serif JP", serif;
+    font-size: 4rem;
+    color: #9d8a78;
+  }
+  
+  main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80%;
+  }
+  
+  .gacha-button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: #d72b3f;
+    color: #ffffff;
+    font-size: 1.2rem;
+    font-family: "Noto Sans JP", sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .gacha-button:hover {
+    background-color: #ffcb69;
+  }
+  
